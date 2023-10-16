@@ -491,5 +491,14 @@
             </reporting>
         </profile>
     </profiles>
-
+   <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>Corporate Repository</name>
+      <url>https://github.com/skjoshi23/</url>
+      <layout>default</layout>
+    </repository>
+    ...
+</distributionManagement>
 </project>
